@@ -2,12 +2,12 @@
 CSS Border Spinner by Benjamin Bolgrin
 */
 
-#spinner-container {
+#spinner-wrapper {
 	margin: auto;
 	width: 60px; /* must be twice the size of spinner's border-size */
-	background-color: #f1f1f1;
-	border: 1px solid #cccccc;
-	box-shadow: 0px 0px 7px #bbbbbb;
+	background-color: rgba(255, 255, 255, 0.35);
+	
+  	box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
 }
 
 #spinner {
@@ -35,18 +35,18 @@ CSS Border Spinner by Benjamin Bolgrin
 
 @keyframes shadow-animation {
 	0%   {
-  		box-shadow: 0px -2px 3px grey;
+  		box-shadow: 0px -2px 3px rgba(0, 0, 0, 0.5);
     }
     25%   {
-    	box-shadow: 2px 0px 3px grey;
+    	box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.5);
   	}
     50%   {
-    	box-shadow: 0px 2px 3px grey;
+    	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
   	}
   	75%   {
-  		box-shadow: -2px 0px 3px grey;
+  		box-shadow: -2px 0px 3px rgba(0, 0, 0, 0.5);
   	}
   	100%   {
-  		box-shadow: 0px -2px 3px grey;
+  		box-shadow: 0px -2px 3px rgba(0, 0, 0, 0.5);
     }
 }

@@ -1,4 +1,4 @@
 # css-border-spinner  
 A simple spinner animation made with border-styles  
-![](http://i.imgur.com/YiQwc6i.jpg)
+![](http://i.imgur.com/vQ1EzCz.jpg)
 
